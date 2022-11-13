@@ -2,6 +2,11 @@
 
 Developed with Unreal Engine 5
 
+This project is based on the course
+
+Unreal Engine 4 Mastery: Create Multiplayer Games with C++ - Tom Looman
+- https://www.udemy.com/course/unrealengine-cpp/
+
 -----
 Instructions to run game in server mode
 -----
@@ -22,3 +27,4 @@ Instructions to reun game in client mode
 
 -----
 ## Enjoy to game play
+
