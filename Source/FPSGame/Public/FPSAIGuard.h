@@ -59,8 +59,6 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	virtual void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
-
 protected:
 	// let the guard patrol between two points
 	UPROPERTY(EditInstanceOnly, Category = "AI")

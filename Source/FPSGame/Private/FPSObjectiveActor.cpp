@@ -21,7 +21,7 @@ AFPSObjectiveActor::AFPSObjectiveActor()
 	SphereComp->SetCollisionResponseToChannel(ECC_Pawn, ECR_Overlap);
 	SphereComp->SetupAttachment(MeshComp);
 
-	SetReplicates(true);
+	bReplicates = true;
 }
 
 // Called when the game starts or when spawned
