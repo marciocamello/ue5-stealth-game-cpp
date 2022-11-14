@@ -28,7 +28,7 @@ AFPSProjectile::AFPSProjectile()
 	ProjectileMovement->bShouldBounce = true;
 
 	// Die after 3 seconds by default
-	InitialLifeSpan = 3.0f;
+	InitialLifeSpan = 5.0f;
 
 	bReplicates = true;
 	SetReplicateMovement(true);
